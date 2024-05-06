@@ -31,8 +31,11 @@ class Student(object):
             print('%s watching Japan action movies.' % self.name)
         
 def main():
+    # create student object,then give it name and age.
     stu1 = Student('Maxwell', 26)
+    # send study message to object
     stu1.study('Python program design')
+    # send watch_av message to object
     stu1.watch_av()
     stu2 = Student('christine', 31)
     stu2.study('think is good')
